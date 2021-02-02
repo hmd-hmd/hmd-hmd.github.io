@@ -1,0 +1,383 @@
+.font-odibee {
+    font-family: 'Odibee Sans', cursive;
+}
+
+.cyan,
+.cyan-hover:hover {
+    background-color: #09b1ba
+}
+
+.nav-wrapper a {
+    color: #37474f !important;
+}
+
+.nav-wrapper ul li:hover {
+    position: relative;
+}
+
+.btn.cyan.darken-3:hover {
+    color: white !important;
+    background-color: #09b1ba !important;
+}
+
+.nav-wrapper ul li:hover a {
+    color: white !important;
+    font-weight: bold !important
+}
+
+.nav-wrapper ul li:hover::before {
+    content: '';
+    position: absolute;
+    background-color: #09b1b0;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    transform: translateY(40%);
+    z-index: -1;
+    border-radius: 18px;
+}
+
+.nav-wrapper ul li.lit:hover::before {
+    display: none;
+}
+
+iframe {
+    height: 200px;
+    width: 100%;
+}
+
+@media (min-width:500px) {
+    iframe {
+        height: 265px;
+        width: 450px;
+    }
+}
+
+@media (min-width:750px) {
+    iframe {
+        height: 420px;
+        width: 746px;
+        ;
+    }
+}
+
+@media (min-width:1130px) {
+    iframe {
+        height: 630px;
+        width: 1120px;
+    }
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner img {
+    max-height: 80%;
+}
+
+.banner-left {
+
+    width: 100%;
+    margin-left: -20px;
+}
+
+.banner-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.title-first h3 {
+    margin-top: -40px !important;
+    margin: 0;
+}
+
+.img-thumb {
+    max-height: 310px;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.item-title,
+.item-title:hover {
+    text-decoration: none;
+}
+
+.item-title:hover h6 {
+    color: #09b1ba;
+}
+
+.item-preview {
+    overflow: hidden;
+    position: relative;
+}
+
+.item-preview span {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(9, 177, 186, .25);
+    opacity: 0;
+    transition: 0.4;
+}
+
+.item-preview:hover span {
+    opacity: 1;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.item-details h6,
+.item-avaibility {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.6px;
+}
+
+.item-avaibility {
+    font-weight: 400;
+    float: right;
+    color: green;
+}
+
+
+.cyan-hover:hover {
+    background-color: #09b1ba
+}
+
+.text-white-hover:hover {
+    color: white;
+}
+
+.text-nodecor,
+.text-nodecor:hover,
+.text-nodecor a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.footer-payment-icons {
+    float: right;
+}
+
+.footer-payment-icons img {
+    height: 32px;
+    margin-inline: 5px;
+}
+
+
+/* Halaman Rincian */
+.item-i li {
+    margin-left: 10px !important;
+    padding-bottom: 20px !important;
+    box-sizing: border-box;
+}
+
+.item-info .x-right,
+.item-info .x-center,
+.item-info .x-left {
+    display: table-cell;
+    text-align: left;
+}
+
+.item-info .x-left {
+    min-width: 100px;
+    width: 180px;
+}
+
+.item-info .x-center {
+    padding-left: 0px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+}
+
+.buy-item button {
+    width: 100%;
+}
+
+.payment {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.x-overlay {
+    display: flex;
+    padding-top: 220px;
+    height: 100%;
+    text-align: center;
+
+}
+
+
+.choose-payment,
+.pay,
+#ovoDana,
+#visaMasterMaestro,
+#paypalGoogle {
+    display: none;
+}
+
+.pay {
+    position: relative;
+}
+
+.close-payment {
+    background-color: #666666;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    border: solid 2px #eeeeee;
+    box-sizing: border-box;
+    position: absolute;
+    top: -14px;
+    right: -14px;
+}
+
+.close-payment span {
+    font-size: 1.5em;
+    color: white;
+}
+
+.payment-method div {
+    display: inline-block;
+    width: 100%;
+}
+
+.payment-method a {
+    text-decoration: none;
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+}
+
+.payment-method div img {
+    max-height: 50px;
+    margin-top: 20px !important;
+}
+
+.pay .card {
+    border-radius: 10px;
+}
+
+.pay-data img {
+    max-height: 100px;
+}
+
+.pay-data input {
+    border: 2px solid #eeeeee !important;
+    padding: 0 10px !important;
+    height: 38px !important;
+    border-radius: 19px !important;
+}
+
+.pay-data input:focus {
+    box-shadow: none !important;
+    border: 2px solid #09b1b0 !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+#paySuccess {
+    display: none;
+}
+
+/* Halaman Petunjuk */
+.petunjuk p span {
+    font-weight: bold;
+}
+
+/* Halaman About */
+.team {
+    text-align: center;
+
+}
+
+.team img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.team h4,
+.team p {
+    font-family: 'Concert One', cursive;
+}
+
+.team p {
+    font-size: 1.3em;
+}
+
+.team span {
+    font-family: 'Rancho', cursive;
+    font-size: 1.7em;
+    margin-top: 40px;
+}
+
+.about span.p {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+
+/* Halaman Login */
+
+.login .card {
+    padding: 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #09b1b0 !important;
+    width: 70%;
+}
+
+.login .form-group {}
+
+.login input {
+    border: 2px solid #eeeeee !important;
+    padding: 0 10px !important;
+    height: 38px !important;
+    border-radius: 19px !important;
+}
+
+.login input:focus {
+    box-shadow: none !important;
+    border: 2px solid #09b1b0 !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+.user-icon img {
+    max-width: 40px;
+}
+
+
+@media (min-width: 960px) {
+    .x-fixed-bottom {
+        position: fixed;
+        bottom: 0;
+    }
+}

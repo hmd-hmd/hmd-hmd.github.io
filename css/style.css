@@ -1,0 +1,25 @@
+section{
+   padding-top: 20px;
+}
+.slider h3,
+.slider h5,
+.clients h3{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+}
+.parallax-container{
+    height: 20%;
+}
+
+.parallax img{
+    opacity: .7!important;
+}
+
+.service{
+    padding-bottom: 20px;
+}
+.contact ul{
+    padding: 0!important;
+}
+footer{
+    padding: 0.1rem 0;
+}
